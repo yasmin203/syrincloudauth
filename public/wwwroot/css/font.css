@@ -1,0 +1,42 @@
+@import url("https://p.typekit.net/p.css?s=1&k=won6din&ht=tk&f=26500&a=11282847&app=typekit&e=css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+
+@font-face {
+font-family:"ingra";
+src:url("https://use.typekit.net/af/583f09/00000000000000003b9acd68/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),
+url("https://use.typekit.net/af/583f09/00000000000000003b9acd68/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),
+url("https://use.typekit.net/af/583f09/00000000000000003b9acd68/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400 !important;
+}
+
+.font-SyrianCloud { 
+  font-family: "ingra",sans-serif !important;
+  padding: 0;
+  margin: 0;
+   }
+
+@font-face {
+    font-family: 'SyrianCloud';
+    src: url('../fonts/SyrianCloud.eot?m24idx');
+    src: url('../fonts/SyrianCloud.eot?m24idx#iefix') format('embedded-opentype'), url('../fonts/SyrianCloud.ttf?m24idx') format('truetype'), url('../fonts/SyrianCloud.woff?m24idx') format('woff'), url('../fonts/SyrianCloud.svg?m24idx#icomoon') format('svg');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.icon-SyrianCloud {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'SyrianCloud' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+   /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-SyrianCloud::before {
+  content: "\e900";
+}
